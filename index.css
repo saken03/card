@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 body {
-    /* background: #ff9966;  
-    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
-    background: linear-gradient(to right, #ff5e62, #ff9966);  */
+    background: #FFEEEE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
     font-family: Roboto;
     font-size: 20px;
     color: rgb(110, 110, 110);
+    margin: 0;
 }
 
 .card {
@@ -24,8 +24,11 @@ body {
     padding-top: 15px;    
 }
 .box {
-    background-color: aqua;
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 300px;
+    height: 300px;
     border-radius: 20px;
     position: absolute;
     left: -5%;
@@ -47,8 +50,9 @@ h3 {
 
 button {
     color: white;
-    background: rgb(255,123,0);
-    background: linear-gradient(73deg, rgba(255,123,0,1) 0%, rgba(255,0,0,1) 100%);
+    background: #666600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #999966, #666600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #999966, #666600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: none;
     font-family: Roboto;
     font-weight: 500;
@@ -67,17 +71,3 @@ button {
     margin-right: 15px;
 }
 
-.dots div:not(:nth-child(2)) {
-    margin-top: 0;
-    margin-bottom: 7px;
-    background-color: rgb(170, 170, 170);
-}
-/* 
-.dots div:not(:nth-child(2)) {
-    margin-top: 0;
-    margin-bottom: 7px;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    background-color: lightcoral;
-} */
