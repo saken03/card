@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-body {
+html {
+    background: #556270;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: Roboto;
     font-size: 1.2vw;
-    margin: 0;
-    background-color: aquamarine;
+    margin: 0;    
 }
 
 .card {
+
     background-color: white;
     display: flex;
     width: 50%;
     height: 50%;
-    /* min-height: 400px; */
-    /* border-radius: 30px; */
+    border-radius: 30px;
     align-items: center;   
     position: absolute;
     left: 50%;
@@ -23,7 +25,9 @@ body {
     /* padding-top: 15px;     */
 }
 .box {
-    background: linear-gradient(to right, #274046, #dddae6); 
+    background: #F0C27B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 35%;
     height: 60%;
     border-radius: 20px;
